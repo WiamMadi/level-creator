@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51d2034c4d41f36448f0fc0efafc7015, type: 3}
-  m_Name: Level
+  m_Script: {fileID: 11500000, guid: 0704d6c50c86cc6478c0aa92905b073d, type: 3}
+  m_Name: LevelManager
   m_EditorClassIdentifier: 
-  id: ca268559-3b93-4f77-af51-95e9d7485fba
-  map: 0
+  levels:
+  - {fileID: 11400000, guid: f0b9f1cbd36aa4e45b0135faea46a58a, type: 2}
+  - {fileID: 11400000, guid: 542f151d118df8b46ade72591ff43084, type: 2}

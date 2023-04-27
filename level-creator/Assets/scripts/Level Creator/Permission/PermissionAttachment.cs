@@ -1,15 +1,13 @@
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
 
-using UnityEngine;
-
-public abstract class PermissionAttachment : MonoBehaviour
+public class PermissionAttachment
 {
-    private List<Permission> permissionList = new List<Permission>();
+    private List<Permission> permissionList;
 
-    public PermissionAttachment()
+    public PermissionAttachment(List<Permission> permissionList)
     {
-        //Load permissions
+        this.permissionList = permissionList ?? new List<Permission>();
     }
 
     public void AddPermission(params Permission[] permissions)
